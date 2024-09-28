@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ASCII Art Table</title>
+    <style>
+        table {
+            border-collapse: collapse;
+            font-family: 'Courier', monospace;
+            margin: 20px;
+        }
+        td {
+            width: 20px;
+            height: 20px;
+            text-align: center;
+            vertical-align: middle;
+        }
+        /* Remove table gridlines */
+        table, td {
+            border: none;
+        }
+        /* Styling the outside edge */
+        .outer-edge {
+            color: red; /* Color for the outer edge */
+        }
+        /* Styling the crosshairs */
+        .crosshair {
+            color: blue; /* Color for the crosshairs */
+        }
+    </style>
+</head>
+<body>
+
+<table>
+    <!-- First Row -->
+    <tr>
+        <td class="outer-edge">/</td>
+        <td class="outer-edge">-</td>
+        <td class="outer-edge">-</td>
+        <td class="outer-edge">-</td>
+        <td class="outer-edge">-</td>
+        <td class="outer-edge">-</td>
+        <td class="outer-edge">\</td>
+    </tr>
+
+    <!-- Second Row -->
+    <tr>
+        <td class="outer-edge">|</td>
+        <td></td>
+        <td></td>
+        <td class="crosshair">|</td>
+        <td></td>
+        <td></td>
+        <td class="outer-edge">|</td>
+    </tr>
+
+    <!-- Third Row -->
+    <tr>
+        <td class="outer-edge">|</td>
+        <td></td>
+        <td></td>
+        <td class="crosshair">|</td>
+        <td></td>
+        <td></td>
+        <td class="outer-edge">|</td>
+    </tr>
+
+    <!-- Middle Row (Crosshair) -->
+    <tr>
+        <td class="outer-edge">|</td>
+        <td class="crosshair">-</td>
+        <td class="crosshair">-</td>
+        <td class="crosshair">+</td>
+        <td class="crosshair">-</td>
+        <td class="crosshair">-</td>
+        <td class="outer-edge">|</td>
+    </tr>
+
+    <!-- Fifth Row -->
+    <tr>
+        <td class="outer-edge">|</td>
+        <td></td>
+        <td></td>
+        <td class="crosshair">|</td>
+        <td></td>
+        <td></td>
+        <td class="outer-edge">|</td>
+    </tr>
+
+    <!-- Sixth Row -->
+    <tr>
+        <td class="outer-edge">|</td>
+        <td></td>
+        <td></td>
+        <td class="crosshair">|</td>
+        <td></td>
+        <td></td>
+        <td class="outer-edge">|</td>
+    </tr>
+
+    <!-- Last Row -->
+    <tr>
+        <td class="outer-edge">\</td>
+        <td class="outer-edge">_</td>
+        <td class="outer-edge">_</td>
+        <td class="outer-edge">_</td>
+        <td class="outer-edge">_</td>
+        <td class="outer-edge">_</td>
+        <td class="outer-edge">/</td>
+    </tr>
+</table>
+
+</body>
+</html>
